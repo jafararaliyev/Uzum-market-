@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: white;
+}
+body{
+  -webkit-user-select: none;
+}
+
+body {
+  width: 100%;
+  height: 1130vh;
+}
+
+.navbar_bottom {
+  width: 100%;
+  height: 35px;
+  background: rgb(229, 229, 229);
+  display: flex;
+}
+
+.navbarBottom_card {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+
+}
+
+.navbarBottom_card i {
+  font-size: 20px;
+  margin: 5px 0 5px 80px;
+  cursor: pointer;
+}
+
+.navbarBottom_card p {
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+.navbarBottom_card p .span {
+  font-family: monospace;
+  border-bottom: 2px solid black;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 15px 75px;
+  display: flex;
+}
+
+.navLogo {
+  width: 250px;
+  height: auto;
+  display: flex;
+  cursor: pointer;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.Logotext {
+  text-align: center;
+  margin: auto;
+  font-family: Verdana;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(134, 4, 255);
+}
+
+.Logoimg {
+  width: 35px;
+  height: 35px;
+  border-radius: 30%;
+  background: url(./uzum.png) no-repeat center/cover;
+}
+
+.katolog {
+  width: 110px;
+  height: auto;
+  border: none;
+  gap: 10px;
+  cursor: pointer;
+  color: rgb(134, 4, 255);
+  border-radius: 7px;
+  background-color: rgba(134, 130, 238, 0.173);
+}
+
+.search {
+  width: 580px;
+  height: 45px;
+  border: 0.1px solid gray;
+  border-radius: 5px;
+  margin-left: 10px;
+  display: flex
+}
+
+.search_input {
+  width: 85%;
+  height: 100%;
+  border: 0.1px solid gray;
+  border-radius: 5px 0 0 5px;
+
+}
+
+.search_font_div {
+  width: 15%;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+  font-size: 25px;
+  background: rgb(221, 221, 221);
+  padding: 6px 8px;
+}
+
+.search_font {
+  margin-left: 25px;
+}
+
+.kirish {
+  width: 100px;
+  height: 45px;
+  border: none;
+  margin-left: 10px;
+  font-size: 17px;
+  background: white;
+}
+
+.saqlaganlar {
+  width: 100px;
+  height: 45px;
+  border: none;
+  margin-left: 10px;
+  font-size: 16px;
+  background: white;
+}
+
+.savat {
+  width: 100px;
+  height: 45px;
+  border: none;
+  margin-left: 10px;
+  font-size: 16px;
+  background: white;
+}
+
+.katalog {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.maktab {
+  border: none;
+  background: none;
+  display: flex;
+  margin-left: 500px;
+  text-align: center;
+}
+
+.maktab img {
+  width: 25px;
+  height: 25px;
+}
+
+.maktab p {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.yozgi {
+  border: none;
+  background: none;
+  display: flex;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.yozgi img {
+  width: 25px;
+  height: 25px;
+}
+
+.yozgi p {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.kanselyariya {
+  border: none;
+  background: none;
+  display: flex;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.kanselyariya img {
+  width: 25px;
+  height: 25px;
+}
+
+.kanselyariya p {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.nasiya {
+  border: none;
+  background: none;
+  display: flex;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.nasiya img {
+  width: 25px;
+  height: 25px;
+}
+.nasiya p {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.sotuvlar{
+  width: 1150px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 70px;
+  display: flex;
+}
+.sotuv1{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+.sotuv2{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.sotuv3{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.sotuv4{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.sotuv5{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.sotuvlar2{
+  width: 1150px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 70px;
+  display: flex;
+}
+.sotuv6{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+.sotuv7{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.sotuv8{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.sotuv9{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.sotuv10{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.soz1{
+  width: 1100px;
+  height: 30px;
+  margin-left: 105px;
+  display: flex;
+}
+.soz2{
+  width: 1000px;
+  height: 20px;
+  margin-left: 105px;
+  margin-top: 30px;
+  display: flex;
+}
+.soz3{
+  width: 700px;
+  height: 20px;
+  margin-left: 105px;
+  margin-top: 30px;
+  display: flex;
+}
+.futer{
+  width: 1100px;
+  height: 150px;
+}
